@@ -1,3 +1,2 @@
 sympy
-rdkit-pypi
 flask
