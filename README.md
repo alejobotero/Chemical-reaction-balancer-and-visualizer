@@ -33,4 +33,59 @@ This web application allows users to input chemical reactions to be balanced aut
 ---
 
 ## Project Structure
+project/
+├── app.py # Main Flask application
+├── balancer.py # Logic for balancing and rendering molecules
+├── templates/
+│ └── index.html # Frontend UI (Jinja2 template)
+└── static/ # (Optional) Static files like custom JS or CSS
+
+yaml
+Copy
+Edit
+
+---
+
+## Getting Started
+
+1. **Clone the Repository**
+
+```bash
+git clone https://github.com/your-username/chemical-reaction-balancer.git
+cd chemical-reaction-balancer
+Install Dependencies
+
+You need Python 3 and pip installed. Then run:
+
+bash
+Copy
+Edit
+pip install flask rdkit-pypi
+Note: rdkit-pypi may require additional system dependencies. See RDKit installation instructions for more details if needed.
+
+Run the Application
+
+bash
+Copy
+Edit
+python app.py
+Open your browser and go to:
+http://localhost:5001/
+
+How It Works
+The reaction balancer parses the equation into reactants and products, converts the problem into a system of linear equations, and solves for the coefficients.
+
+The visualizer parses SMILES strings using RDKit and renders molecule images, which are then base64-encoded and embedded directly into the HTML.
+
+Dark mode is handled on the frontend with JavaScript and Tailwind's dark: classes.
+
+Future Improvements
+User authentication and history of balanced reactions
+
+Client-side validation for input formats
+
+Export options for balanced equations or images
+
+3D molecular visualization support
+
 
