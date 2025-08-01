@@ -32,25 +32,12 @@ This web application allows users to input chemical reactions to be balanced aut
 
 ---
 
-## Project Structure
-project/
-├── app.py # Main Flask application
-├── balancer.py # Logic for balancing and rendering molecules
-├── templates/
-│ └── index.html # Frontend UI (Jinja2 template)
-└── static/ # (Optional) Static files like custom JS or CSS
-
-yaml
-Copy
-Edit
-
----
 
 ## Getting Started
 
 1. **Clone the Repository**
 
-```bash
+``bash
 git clone https://github.com/your-username/chemical-reaction-balancer.git
 cd chemical-reaction-balancer
 Install Dependencies
