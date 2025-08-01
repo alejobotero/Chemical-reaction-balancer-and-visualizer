@@ -74,5 +74,8 @@ Client-side validation for input formats
 Export options for balanced equations or images
 
 3D molecular visualization support
+<img width="512" height="497" alt="image" src="https://github.com/user-attachments/assets/eff27bfd-10fa-4024-9563-2886f25882a6" />
+<img width="495" height="879" alt="image" src="https://github.com/user-attachments/assets/79b8d18e-edbd-465e-bcb5-609e939e2180" />
+
 
 
