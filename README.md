@@ -1,6 +1,6 @@
 # Chemical Reaction Visualizer & Balancer
 
-This web application allows users to input chemical reactions to be balanced automatically and visualize molecular structures using SMILES notation. It is built with Python using the Flask framework, styled with Tailwind CSS, and uses RDKit for molecular rendering.
+This python3 application allows users to input chemical reactions to be balanced automatically and visualize molecular structures using SMILES notation. It is built with Python using the Flask framework, styled with Tailwind CSS, and uses RDKit for molecular rendering.
 
 ---
 
